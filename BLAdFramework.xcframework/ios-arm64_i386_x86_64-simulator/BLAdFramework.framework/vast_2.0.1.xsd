@@ -1,0 +1,35 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
+    <Ad id="1495333">
+        <InLine>
+            <AdSystem>BrightLine</AdSystem>
+            <AdTitle>Chevy Pilot</AdTitle>
+            <Description>Chevy Pilot Overlay</Description>
+            <Creatives>
+                <Creative id="VIDEO_1495333" sequence="1">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[
+                                http://events.brightline.tv/track?data=%7B%22type%22%3A%20%22impression%22%2C%20%22valid%22%3A%20true%2C%20%22ad_id%22%3A%201498744%7D
+                            ]]></Tracking>
+                        </TrackingEvents>
+                        <MediaFiles>
+                            <MediaFile id="VIDEO_MP4_1495333" delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="2291" scalable="true" maintainAspectRatio="true" apiFramework="brightline"><![CDATA[
+                                http://j9a6c3v9.ssl.hwcdn.net/videos/ads/2015-q4-chevy-volt-pilot-226063/chevy_volt_pilot_spot_timecapsule_h264_30fps_avcmain41_720p.mp4
+                            ]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                <Creative id="COMPANION_1495333" sequence="1" apiFramework="brightline">
+                    <CompanionAds>
+                        <Companion id="COMPANION_OVERLAY_1495333" width="1280" height="720" apiFramework="brightline">
+                            <StaticResource creativeType="application/json"><![CDATA[
+                                http://a.brightline.tv/?id=81470687&ver=%%SDK_VER%%&cb=%%CACHEBUSTER%%&mblist=2450X,2500X
+                            ]]></StaticResource>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
