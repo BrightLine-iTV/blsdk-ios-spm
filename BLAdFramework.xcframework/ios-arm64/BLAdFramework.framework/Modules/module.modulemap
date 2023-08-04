@@ -1,0 +1,6 @@
+framework module BLAdFramework {
+  umbrella header "BLAdFramework.h"
+
+  export *
+  module * { export * }
+}
