@@ -1,3 +1,3 @@
 # blsdk-ios-spm
 BrightLine SDK for iOS
-Current version is 1.1.6
+Current version is 1.1.9
